@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Predictor</title>
+    <link rel="stylesheet" href="./css/age-style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="title">Age Predictor</h1>
+    </div>
+    <form id="age-form" method="post">
+      <input
+        type="text"
+        name="person-name"
+        id="person-name"
+        placeholder="Please Enter the name"
+        required
+      />
+      <input type="submit" value="Predict Age" id="predict-age" />
+    </form>
+
+    <div class="age-output"></div>
+
+    <script src="./js/jQuery/jquery-3.6.0-min.js"></script>
+    <script src="./js/Intermediate/agePredictor.js"></script>
+  </body>
+</html>
